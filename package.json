@@ -1,0 +1,34 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "Simple typescript template (typescript + ts-node + eslint)",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "lint": "eslint src/**/*.{js,ts} --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mestima/ts-template.git"
+  },
+  "keywords": [
+    "typescript",
+    "eslint",
+    "ts-node"
+  ],
+  "author": "Mestima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mestima/ts-template/issues"
+  },
+  "homepage": "https://github.com/Mestima/ts-template#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0"
+  }
+}
